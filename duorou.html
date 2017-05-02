@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>duorou</title>
+</head>
+<style>
+    body{
+        margin:0;
+        paddign:0;
+        background-color:#F5F5F5;
+    }
+    .nav{
+        font: 23.89px Microsoft YaHei;
+        margin:0px auto;
+        width:2000px;height:827px;
+        background:url(images/banner.png) no-repeat;
+        background-size: 100%;;
+    }
+    .nav ,.footer, div a{
+        text-decoration:none;
+        color:#050505;
+    }
+    .heidian{
+        background:url(images/heidian.png) no-repeat ;
+        padding-left:66px;
+        padding-right:33px;
+        display:inline-block;
+    }
+    .inlineblock{
+        display:inline-block;
+    }
+    .home{
+        font:9.59px Adobe 黑体 Std;
+        background: url(images/xiaojiantou.png)no-repeat 71px 3px;
+    }
+    .home a{
+        padding:15px;
+        background: url(images/6.png) no-repeat 12px 24px;
+    }
+    .section_one,.section_two,.section_three{
+        margin:0px auto;
+        width:1195px;
+        height:1050px;
+        background:#fff;
+        border-bottom:1px solid#D4E9C9;
+    }
+    .section_one{
+        position: relative;
+    }
+    .section_one_body{
+        margin:0 100px;
+        width: 1100px;height:210px;
+        background:url(images/8.png) no-repeat 172px 35px;
+        padding-top: 15px;
+    }
+    .transform:hover{
+        transform: scale(1.1);
+    }
+    .section_one_body_info,.section_one_body_infoTwo{
+        width:550px;height:140px;
+        border:3px solid#E2E2E2;
+        border-left:0;margin:-120px 0 0 473px;
+        background:url(images/sanjiaox.png) no-repeat right bottom;
+    }
+    .section_one_body_infoTwo{
+        background:url(images/jiantou.png) no-repeat right center;
+    }
+    .section_two{
+        height:800px;
+    }
+    .section_one_title, .section_two_title, .section_three_title{
+        width:370px;
+        height:150px;
+        background:url(images/zitititle.png) no-repeat  center top;
+        margin:15px  auto;
+        position: relative;
+    }
+   .p_oneFont{
+        font:20.04px Microsoft YaHei;
+       display: inline-block;
+    }
+     .p_twoFnt{
+        font:18.04px  Microsoft YaHei;
+        color:#515151;
+    }
+    .p_threeFont{
+        font:16px Microsoft YaHeiLight;
+        color:#9A9A9A;
+    }
+    .section_three_body{
+        width:1015px;height:177px;
+        margin:25px  auto;
+        background:url(images/16.png) no-repeat 0 -25px;
+    }
+    .section_three_body div{
+        width:559px ;margin-left:430px;
+        background:url(images/line.png) no-repeat -3px 73px;
+    }
+    .section_three_body_p1{
+         background: url(images/nw.png)no-repeat 190px 1px;
+         font:18px SimHei;color:#097C25;font-weight: bold;
+    }
+    .section_three_body_p2{
+         float:left;
+         font:14px SimHei;
+     }
+    .section_three_body_p3{
+         padding-left:15px;
+         float: right;
+         background:url(images/clock.png) no-repeat 2px 2px;
+         font:14px SimHei;
+     }
+    .section_three_body_p4{
+        font:14px SimHei;
+        color: #A0A0A0;
+        clear: both;
+    }
+   .serialNumber{
+       text-align: center;line-height: 120px;
+       font-size: 73px;color:#fff;
+       width:177px;height: 120px;
+       background:url(images/10.png) no-repeat #ACD598 51px 85px;
+       margin-top:50px;
+       font-weight:bold;
+    }
+   .imgnum{
+       width:300px;height:50px;margin: 100px auto 0
+   }
+    .imgnum div{
+        display: inline-block; width:40px;height:40px;
+    }
+    td{
+        width:300px; heigh:50px
+    }
+    td p span,div p span{
+        background: url(images/huidian.png) no-repeat -12px 0;
+        padding-left:18px;
+        padding-bottom: 2px;
+
+    }
+    .illustration{
+        width:1309px;height:231px;
+        background:url(images/chatu.png) no-repeat;
+        margin:0 auto;
+    }
+    .footer{
+        font: 23.89px Microsoft YaHei;
+        margin:0px auto;
+        width:1500px;height:660px;
+    }
+    .footer_body{
+        width:1500px;height:165px;
+        margin:0 auto;
+        background:url(images/logo.png) no-repeat center 80px;
+    }
+    .footer p{
+        align:center;
+        font:24.05px Microsoft YaHei ;
+    }
+    .p_english{
+        font: 18px  HelveticaNeu;
+        color:#E4E4E4;
+        display: inline-block;
+    }
+    .hotTitle{
+        font:bold 13.71px Microsoft YaHei;
+        margin:0;padding:0 0 0 63px;
+        letter-spacing: 62px;
+    }
+    .lemon{
+        position: absolute;top:120px;left:160px;" align="center
+    }
+    .englishTitle{
+        font-size: 48px;margin:0;
+        padding:50px 0 0 63px;
+        letter-spacing: 3px
+    }
+    .imgtd{
+        width:100px;
+    }
+    .black_border{
+        position:absolute;
+        top:-24px;left:0px;width:1195px;
+        height:24px;background:#1B1B1B
+    }
+   .nav a:hover{
+        background:#DDE7D8;
+    }
+    .footer_body a:hover{
+        background:#DDE7D8;
+    }
+</style>
+<body>
+    <div class="nav">
+            <div style="width:1500px;height:100px;margin:0 auto;">
+                <div class="inlineblock" style="position:absolute;top:0px;left:40px;margin-bottom:15px;"><img src="images/logo.png" ></div>
+                <div  class="inlineblock" style="padding:33px;margin-left: 200px;"><a href="#">首页</a></div>
+                <div  class="heidian" ><a href="#">热门植物</a></div>
+                <div class="heidian"><a href="#">新品速递</a></div>
+                <div class="heidian"><a href="#">关于我们</a></div>
+                <div class="heidian"><a href="#">玩家博客</a></div>
+                <div class="heidian"><a href="#">联系我们</a></div>
+                <div>
+                <span style="font:30px '華康娃娃體';color:#6C6C6C;margin:133px 0 0 307px;display: inline-block;letter-spacing: 20px">活在当下</span>
+                <span style="font:30px '華康娃娃體';color:#6C6C6C;margin:0 0 0 484px;letter-spacing: 20px">静享时光</span>
+                </div>
+            </div>
+        </div>
+    <div class="section_one">
+        <p class="home">
+            <a  href="#">HOME首页</a>
+           <a  href="#"> ABOUT新品速递</a>
+        </p>
+        <div class="black_border" ></div>
+        <div class="section_one_title">
+            <p class="englishTitle">Releas<u>&</u>es</p>
+            <p class="hotTitle">热门新品</p>
+            <div class="lemon"><img src="images/lemon.png"></div>
+            <hr color="#D4E9C9">
+        </div>
+        <div class="transform">
+            <div class="section_one_body">
+                <div class="serialNumber">01</div>
+                <div class="section_one_body_info">
+                    <p class="p_oneFont">原始森林深度行</p>
+                    <p class="p_english"> THE HOT RELEASES</p>
+                    <p class="p_twoFont">始终如一，感受地球创世纪之美</p>
+                    <p class="p_threeFont">
+                        <span>999浏览</span>
+                        <span>2016-09-22</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="section_one_body">
+            <div class="serialNumber">02</div>
+            <div class="section_one_body_infoTwo">
+                <p class="p_oneFont">原始森林深度行</p>
+                <p class="p_english"> THE HOT RELEASES</p>
+                <p class="p_twoFont">始终如一，感受地球创世纪之美</p>
+                <p class="p_threeFont">
+                    <span>999浏览</span>
+                    <span>2016-09-22</span>
+                </p>
+            </div>
+        </div>
+        <div class="section_one_body">
+            <div class="serialNumber">03</div>
+            <div class="section_one_body_info">
+                <p class="p_oneFont">原始森林深度行</p>
+                <p class="p_english"> THE HOT RELEASES</p>
+                <p class="p_twoFont">始终如一，感受地球创世纪之美</p>
+                <p class="p_threeFont">
+                    <span>999浏览</span>
+                    <span>2016-09-22</span>
+                </p>
+            </div>
+        </div>
+        <div class="imgnum">
+            <div  style=" background: url(images/huijiantou.png)no-repeat"></div>
+            <a href="#"><div style=" background: url(images/xuhao01.png)no-repeat"></div></a>
+            <a href="#"> <div style=" background: url(images/xuhao02.png)no-repeat 4px 0"></div></a>
+            <a href="#"><div style=" background: url(images/xuhao03.png)no-repeat"></div></a>
+            <a href="#"><div style=" background: url(images/xuhao04.png)no-repeat"></div></a>
+            <div style="background: url(images/heijiantou.png)no-repeat"></div>
+        </div>
+    </div>
+    <div class="section_two">
+        <p></p>
+        <div class="section_two_title">
+            <p class="englishTitle">Releas<u>&</u>es</p>
+            <p class="hotTitle">热门新品</p>
+            <div class="lemon"><img src="images/lemon.png"></div>
+            <hr color="#D4E9C9">
+        </div>
+          <table  align="center" >
+            <tr>
+                <td  class="imgtd" >
+                    <img src="images/huaquan.png">
+                </td>
+                <td>
+                    <p class="p_oneFont">原始森林深度行</p>
+                    <p class="p_english"> THE HOT </p>
+                    <p class="p_twoFont">始终如一，感受地球创世纪之美</p>
+                    <p class="p_threeFont">
+                        <span>999浏览</span>
+                        <span>2016-09-22</span>
+                    </p>
+                </td>
+                <td  class="imgtd">
+                    <img src="images/huaquan.png">
+                </td>
+                <td>
+                    <p class="p_oneFont">原始森林深度行</p>
+                    <p class="p_english"> THE HOT </p>
+                    <p class="p_twoFont">始终如一，感受地球创世纪之美</p>
+                    <p class="p_threeFont">
+                        <span>999浏览</span>
+                        <span>2016-09-22</span>
+                    </p>
+                </td>
+            </tr>
+            <tr >
+                <td  class="imgtd">
+                    <img src="images/huaquan.png">
+                </td>
+                <td>
+                    <p class="p_oneFont">原始森林深度行</p>
+                    <p class="p_english"> THE HOT</p>
+                    <p class="p_twoFont">始终如一，感受地球创世纪之美</p>
+                    <p class="p_threeFont">
+                        <span>999浏览</span>
+                        <span>2016-09-22</span>
+                    </p>
+                </td>
+                <td  class="imgtd">
+                    <img src="images/huaquan.png">
+                </td>
+                <td>
+                    <p class="p_oneFont">原始森林深度行</p>
+                    <p class="p_english"> THE HOT </p>
+                    <p class="p_twoFont">始终如一，感受地球创世纪之美</p>
+                    <p class="p_threeFont">
+                        <span >999浏览</span>
+                        <span >2016-09-22</span>
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <div class="imgnum">
+            <div  style=" background: url(images/huijiantou.png)no-repeat"></div>
+            <a href="#"><div style=" background: url(images/xuhao01.png)no-repeat"></div></a>
+            <a href="#"> <div style=" background: url(images/xuhao02.png)no-repeat 4px 0"></div></a>
+            <a href="#"><div style=" background: url(images/xuhao03.png)no-repeat"></div></a>
+            <a href="#"><div style=" background: url(images/xuhao04.png)no-repeat"></div></a>
+            <div style="background: url(images/heijiantou.png)no-repeat"></div>
+        </div>
+    </div>
+    <div class="illustration"></div>
+    <div class="section_three">
+        <div class="section_three_title">
+            <p class="englishTitle">Releas<u>&</u>es</p>
+            <p class="hotTitle">热门新品</p>
+            <div class="lemon"><img src="images/lemon.png"></div>
+            <hr color="#D4E9C9">
+        </div>
+        <div class="section_three_body">
+            <div >
+                <p class="section_three_body_p1">这个世界还是很美好的</p>
+                <p class="section_three_body_p2">没有什么是设计解决不了的/设计大赛获奖感言</p>
+                <p class="section_three_body_p3">2017-03-22</p>
+                <p class="section_three_body_p4">
+                    对设计的全面分析会不断遇到阻碍,从各个角度的研究可能得到各种博论的叠加,但是这完全不影响我们对他的许多可能性和不确定性以及他的弱点,设计文化试图通过具有特殊意义的设计理念来解释和定义被设计客体,这个过化物质是社会认同的一个符
+                </p>
+            </div>
+        </div>
+        <div class="section_three_body">
+            <div >
+                <p class="section_three_body_p1">这个世界还是很美好的</p>
+                <p class="section_three_body_p2">没有什么是设计解决不了的/设计大赛获奖感言</p>
+                <p class="section_three_body_p3">2017-03-22</p>
+                <p class="section_three_body_p4">
+                    对设计的全面分析会不断遇到阻碍,从各个角度的研究可能得到各种博论的叠加,但是这完全不影响我们对他的许多可能性和不确定性以及他的弱点,设计文化试图通过具有特殊意义的设计理念来解释和定义被设计客体,这个过化物质是社会认同的一个符
+                </p>
+            </div>
+        </div>
+        <div class="section_three_body">
+            <div >
+                <p class="section_three_body_p1">这个世界还是很美好的</p>
+                <p class="section_three_body_p2">没有什么是设计解决不了的/设计大赛获奖感言</p>
+                <p class="section_three_body_p3">2017-03-22</p>
+                <p class="section_three_body_p4">
+                    对设计的全面分析会不断遇到阻碍,从各个角度的研究可能得到各种博论的叠加,但是这完全不影响我们对他的许多可能性和不确定性以及他的弱点,设计文化试图通过具有特殊意义的设计理念来解释和定义被设计客体,这个过化物质是社会认同的一个符
+                </p>
+            </div>
+        </div>
+        <div class="imgnum">
+            <div  style=" background: url(images/huijiantou.png)no-repeat"></div>
+            <a href="#"><div style=" background: url(images/xuhao01.png)no-repeat"></div></a>
+            <a href="#"> <div style=" background: url(images/xuhao02.png)no-repeat 4px 0"></div></a>
+            <a href="#"><div style=" background: url(images/xuhao03.png)no-repeat"></div></a>
+            <a href="#"><div style=" background: url(images/xuhao04.png)no-repeat"></div></a>
+            <div style="background: url(images/heijiantou.png)no-repeat"></div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer_body">
+            <div  class="inlineblock" style="padding:33px;margin-left: 200px;"><a href="#">首页</a></div>
+            <div  class="heidian" ><a href="#">热门植物</a></div>
+            <div class="heidian"><a href="#">新品速递</a></div>
+            <div class="heidian"><a href="#">关于我们</a></div>
+            <div class="heidian"><a href="#">玩家博客</a></div>
+            <div class="heidian"><a href="#">联系我们</a></div>
+        </div>
+        <p  align="center" >Copyright 2016-2017 All Rights Reserves By Furou Flower Co.Lld</p>
+    </div>
+    </div>
+</body>
+</html>
